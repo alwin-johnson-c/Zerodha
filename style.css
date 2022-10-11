@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+    font-family: "Inter", serif;
+    box-sizing: border-box;
+}
+.main-body{
+    width: 100%;
+    height: 1995x;
+}
+.nav{
+    width: 100%;
+    height: 63px;
+    background: whitesmoke;
+  
+   
+    
+    border-bottom:2px solid rgba(71, 67, 67, 0.09);
+}
+.logo{
+   
+    padding-left: 125px;
+    padding-top: 23px; 
+   
+}
+.logo img{
+    width: 133px;
+   
+}
+.menu{
+    
+    margin-top: -42px
+    
+    
+
+}
+.menu ul{
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 584px;
+    padding-right: 59px;
+    font-size: 19px;
+    font-weight: 200
+    
+}
+ .menu a{
+    text-decoration: none;
+    color: #424242;
+   
+}
+
+.intro{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    /* margin-top: 0px; */
+    background-color: aliceblue;
+    padding-top: 73px;
+    font-family: serif;
+    line-height: 0.7;
+    border-bottom:1px solid rgba(71, 67, 67, 0.09);
+}
+.intro h1{
+    font-size: 61px;
+    font-weight: 300;
+
+}
+.intro h5{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+
+.pricing-section{
+    width: 100%;
+    height: 460px;
+    background: #ffffff;
+    border-bottom: 2px solid #eee0e0;
+}
+
+.three-coloum{
+    display: flex;
+    flex-direction: row;
+    
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    padding-left: 80px;
+    padding-right: 85px;
+    padding-top: 70px;
+
+}
+.info{
+    line-height: .7;
+}
+.pricing-section .info img{
+    width: 250px;
+
+}
+.info-text{
+    line-height: 1.8;
+    text-align: center;
+    padding: 15px;
+    font-size: 19px;
+    color: #666;
+
+
+}
+
+.account{
+    width: 100%;
+    height: 300px;
+    background-color: antiquewhite;
+}
+.acc-details{
+  padding-top: 50px;
+}
+
+
+.acc-details h2{
+    text-align: center;
+    color: #424242;
+    font-size: 30px;
+}
+.acc-text{
+    color:#666;
+    text-align: center;
+    font-size: 22px;
+
+}
+.butn{
+    background: royalblue;
+    border-radius: 9px;
+    text-decoration: none;
+    display: inline;
+    margin-left: 550px;
+    padding: 10px;
+    color: #ffff;
+    font-size: 21px;
+    display: inline-block;
+}
+
+.con{
+    width: 100%;
+    height: 400px;
+    background-color:whitesmoke;
+    border-top: 1px solid #eee0e0;
+    border-bottom: 1px solid #eee0e0;
+}
+.con1{
+    display: flex;
+    flex-direction: row;
+    padding-left: -10px;
+    font-size: 26px;
+    
+    padding-top: 25px;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: baseline;
+    
+    
+    
+}
+
+.broke{
+    margin-left: -76px;
+}
+.broke a {
+    text-decoration: none;
+    color: #629ee7;
+    font-family: Arial, Helvetica, sans-serif;
+   
+} 
+.list a{
+    text-decoration: none;
+    color: #629ee7;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.broke .list h5 a{
+    font-weight: 500;
+   
+    
+}
+.un-order{
+    padding-left: 50px;
+}
+.un-order li{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #666;
+    line-height: 1.6;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background:white;
+}
+.footer-coloum{
+    margin-left: -88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.coloum1 img{
+    width: 162px;
+}
+.coloum1{
+    padding: 10px;
+
+}
+.li-head{
+    font-size: 26px; 
+    padding-top: 40px;
+   
+    padding-bottom: 20px;
+    font-weight: 500;
+
+
+}
+
+.coloum1 li{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    list-style: none;
+
+}
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-left: -131px;
+    padding-left: 93px;
+    color: black;
+}
+.footer-pg p{
+    text-align: justify;
+    padding-left: 34px;
+    padding-right: 139px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #867e7e;
+
+}
+
+.footer-note{
+    background-color: aliceblue;
+   
+    width: 100%;
+    height: 44px;
+    margin-top: -15px;
+    
+}
+.note-last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.note-last li{
+  
+    list-style: none;
+    padding-top: 12px;
+    
+    
+
+}
+
+.note-last a{
+    text-decoration: none;
+    color: #424242;
+    align-items: center;
+  
+
+}
